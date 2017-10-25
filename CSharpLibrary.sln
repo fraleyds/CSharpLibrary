@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.06_LoopsChallenge", "0.06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.06_Fibonacci", "0.06_Fibonacci\0.06_Fibonacci.csproj", "{AFB2806F-435F-4CB9-8EBF-F06D1A63A128}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.07_Objects", "0.07_Objects\0.07_Objects.csproj", "{783BD896-287F-4068-ABF6-49AEBEF4306E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{AFB2806F-435F-4CB9-8EBF-F06D1A63A128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFB2806F-435F-4CB9-8EBF-F06D1A63A128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFB2806F-435F-4CB9-8EBF-F06D1A63A128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783BD896-287F-4068-ABF6-49AEBEF4306E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783BD896-287F-4068-ABF6-49AEBEF4306E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783BD896-287F-4068-ABF6-49AEBEF4306E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783BD896-287F-4068-ABF6-49AEBEF4306E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

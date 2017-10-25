@@ -10,7 +10,7 @@ namespace _0._06_LoopsChallenge
     {
         static void Main(string[] args)
         {
-            ////BRONZE
+            //BRONZE
             //for (int i = 0; i <= 5; i++)
             //{
             //    Console.WriteLine(i);
