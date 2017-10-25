@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\bin\Debug\0.06_Fibonacci.exe.config
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\bin\Debug\0.06_Fibonacci.exe
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\bin\Debug\0.06_Fibonacci.pdb
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\obj\Debug\0.06_Fibonacci.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\obj\Debug\0.06_Fibonacci.exe
+C:\DotNetProjects\CSharpLibrary\0.06_Fibonacci\obj\Debug\0.06_Fibonacci.pdb
