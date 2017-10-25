@@ -1,0 +1,6 @@
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\bin\Debug\0.03_PairCode.exe.config
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\bin\Debug\0.03_PairCode.exe
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\bin\Debug\0.03_PairCode.pdb
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\obj\Debug\0.03_PairCode.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\obj\Debug\0.03_PairCode.exe
+C:\DotNetProjects\CSharpLibrary\0.03_PairCode\obj\Debug\0.03_PairCode.pdb
