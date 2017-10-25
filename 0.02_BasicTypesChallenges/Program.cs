@@ -10,7 +10,6 @@ namespace _0._02_BasicTypesChallenges
     {
         static void Main(string[] args)
         {
-
             // BRONZE CHALLENGE
             int myInt1;
             int myInt2 = 88;

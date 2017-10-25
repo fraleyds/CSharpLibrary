@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\bin\Debug\0.03_Strings.exe.config
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\bin\Debug\0.03_Strings.exe
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\bin\Debug\0.03_Strings.pdb
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\obj\Debug\0.03_Strings.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\obj\Debug\0.03_Strings.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\obj\Debug\0.03_Strings.exe
+C:\DotNetProjects\CSharpLibrary\0.03_Strings\obj\Debug\0.03_Strings.pdb
