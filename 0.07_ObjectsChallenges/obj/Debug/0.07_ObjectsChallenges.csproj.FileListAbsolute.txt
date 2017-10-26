@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\bin\Debug\0.07_ObjectsChallenges.exe.config
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\bin\Debug\0.07_ObjectsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\bin\Debug\0.07_ObjectsChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\obj\Debug\0.07_ObjectsChallenges.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\obj\Debug\0.07_ObjectsChallenges.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\obj\Debug\0.07_ObjectsChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.07_ObjectsChallenges\obj\Debug\0.07_ObjectsChallenges.pdb
