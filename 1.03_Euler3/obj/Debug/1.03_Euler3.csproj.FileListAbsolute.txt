@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\bin\Debug\1.03_Euler3.exe.config
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\bin\Debug\1.03_Euler3.exe
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\bin\Debug\1.03_Euler3.pdb
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\obj\Debug\1.03_Euler3.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\obj\Debug\1.03_Euler3.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\obj\Debug\1.03_Euler3.exe
+C:\DotNetProjects\CSharpLibrary\1.03_Euler3\obj\Debug\1.03_Euler3.pdb

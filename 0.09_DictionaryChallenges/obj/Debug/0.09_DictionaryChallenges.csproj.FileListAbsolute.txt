@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\obj\Debug\0.09_DictionaryChallenges.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\bin\Debug\0.09_DictionaryChallenges.exe.config
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\bin\Debug\0.09_DictionaryChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\bin\Debug\0.09_DictionaryChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\obj\Debug\0.09_DictionaryChallenges.exe
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\obj\Debug\0.09_DictionaryChallenges.pdb
+C:\DotNetProjects\CSharpLibrary\0.09_DictionaryChallenges\obj\Debug\0.09_DictionaryChallenges.csprojResolveAssemblyReference.cache
