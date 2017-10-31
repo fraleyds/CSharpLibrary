@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\bin\Debug\0.12_OOP_Game_BuildAlong.exe.config
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\bin\Debug\0.12_OOP_Game_BuildAlong.exe
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\bin\Debug\0.12_OOP_Game_BuildAlong.pdb
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\obj\Debug\0.12_OOP_Game_BuildAlong.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\obj\Debug\0.12_OOP_Game_BuildAlong.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\obj\Debug\0.12_OOP_Game_BuildAlong.exe
+C:\DotNetProjects\CSharpLibrary\0.12_OOP_Game_BuildAlong\obj\Debug\0.12_OOP_Game_BuildAlong.pdb
