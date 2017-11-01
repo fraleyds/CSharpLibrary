@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGame", "ConsoleGame\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.13_MethodsOverloading", "0.13_MethodsOverloading\0.13_MethodsOverloading.csproj", "{F512BE8C-E20C-4ECA-B741-854D3F03F9C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.14_GetterSetters", "0.14_GetterSetters\0.14_GetterSetters.csproj", "{95D4EF30-F1FB-468E-A666-E24E13478BA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{F512BE8C-E20C-4ECA-B741-854D3F03F9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F512BE8C-E20C-4ECA-B741-854D3F03F9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F512BE8C-E20C-4ECA-B741-854D3F03F9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
