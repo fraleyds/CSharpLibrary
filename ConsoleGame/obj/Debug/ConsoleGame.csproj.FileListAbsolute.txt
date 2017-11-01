@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\bin\Debug\ConsoleGame.exe.config
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\bin\Debug\ConsoleGame.exe
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\bin\Debug\ConsoleGame.pdb
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.exe
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.pdb
