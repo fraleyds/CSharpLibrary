@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.13_MethodsOverloading", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.14_GetterSetters", "0.14_GetterSetters\0.14_GetterSetters.csproj", "{95D4EF30-F1FB-468E-A666-E24E13478BA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.14_Override", "0.14_Override\0.14_Override.csproj", "{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_LINQ", "0.15_LINQ\0.15_LINQ.csproj", "{4F503F06-054A-4BEE-9DC1-743A82D0BA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D4EF30-F1FB-468E-A666-E24E13478BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

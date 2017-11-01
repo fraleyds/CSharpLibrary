@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleGame
+namespace _0._15_LINQ
 {
-    public abstract class Location
+    class Employee
     {
+        public int ID { get; set; }
         public string Name { get; set; }
-
+        public DateTime HireDate { get; set; }
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleGame
+namespace _0._14_Override
 {
-    class Planet
+    public abstract class Shape
     {
+        abstract public double Area();
     }
 }
