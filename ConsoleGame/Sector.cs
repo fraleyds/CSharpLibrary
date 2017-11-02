@@ -8,5 +8,10 @@ namespace ConsoleGame
 {
     class Sector : Location
     {
+        //Constructor
+        public Sector(string name)
+        {
+            this.Name = name;
+        }
     }
 }

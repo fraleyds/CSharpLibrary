@@ -31,7 +31,7 @@ namespace ConsoleGame
 
             Player hero = new Player(Console.ReadLine());
             Console.Clear();
-            Console.WriteLine($"Thank you, {hero.Name}. Just one more question.\n" +
+            Console.WriteLine($"Thank you, {hero.Name}. Just a couple questions.\n" +
                 $"Press RETURN to continue...");
             Console.ReadLine();
             Console.Clear();
@@ -68,7 +68,57 @@ namespace ConsoleGame
                 }
             }
             Console.Clear();
-            Thread.Sleep(500);
+
+            Console.WriteLine("And what kind of ship do you fly now?\n" +
+                "1. S-62 Jackal: Popular fighter for newbies. High attack, low defense.\n" +
+                "2. RQ-12 Armadillo: For cautious types. Heavy shielding but not much weaponry.\n" +
+                "3. PV-C Echo: A weird, rare ship that relies on special attacks.");
+            int i = 0;
+            Ship heroShip = new Ship();
+
+            while (i == 0)
+            {
+                int shipReply = Int32.Parse(Console.ReadLine());
+                if (shipReply == 1)
+                {
+                    heroShip.Name = "Jackal";
+                    heroShip.Hull = 2000;
+                    heroShip.Attack = 300;
+                    heroShip.Defense = 100;
+                    heroShip.Evasion = 0.007;
+                    heroShip.Charge = 250;
+                    heroShip.Value = 90000;
+                    i++;
+                }
+                else if (shipReply == 2)
+                {
+                    heroShip.Name = "Armadillo";
+                    heroShip.Hull = 2400;
+                    heroShip.Attack = 200;
+                    heroShip.Defense = 150;
+                    heroShip.Evasion = 0.005;
+                    heroShip.Charge = 250;
+                    heroShip.Value = 90000;
+                    i++;
+                }
+                else if (shipReply == 3)
+                {
+                    heroShip.Name = "Echo";
+                    heroShip.Hull = 1900;
+                    heroShip.Attack = 200;
+                    heroShip.Defense = 120;
+                    heroShip.Evasion = 0.01;
+                    heroShip.Charge = 1000 / 3;
+                    heroShip.Value = 90000;
+                    i++;
+                }
+                else
+                {
+                    Console.WriteLine("That's not a valid response. Enter a valid value.");
+                }
+            }
+
+            Console.Clear();
             Console.WriteLine("Thanks for your responses! Carry on.\n" +
                 "Press RETURN to exit the survey...");
             Console.ResetColor();
@@ -77,9 +127,70 @@ namespace ConsoleGame
 
             //Shepard Station
             Station shepard = new Station("Shepard Station", false, 5);
-            Console.WriteLine($"You look up from the public console and take in the sight of the sprawling station terminal around you.\n" +
-                $"{shepard.Name} is a bustling hive of activity, and you");
+            Console.WriteLine($"You look up from the public console and take in the sight of the sprawling \n" +
+                $"station terminal around you. {shepard.Name} is a bustling hive \n" +
+                $"of activity, with merchants, travelers, and mercenaries alike milling about.");
+            Console.ReadLine();
+            Console.Clear();
 
+            Console.WriteLine("Your communicator buzzes. Finally, it seems, there's a job for you\n" +
+                $"Soon, you're face to face with a portly fellow with a bushy mustache.\n" +
+                $"\"Nice to meet you, {hero.Name}! Here's the digs:\"");
+            Console.ReadLine();
+            Console.Clear();
+
+            Station grissom = new Station("Grissom Station", true, 2);
+            Console.WriteLine($"\"We need you to deliver a parcel to {grissom.Name}, and\n" +
+                $"we need it done quickly. Can you do that for us, {hero.Name}?\"\n" +
+                $"Enter y/n:");
+            if (Console.ReadLine() == "y")
+            {
+                Console.Clear();
+                Console.WriteLine("\"Excellent. I'll have it sent to your ship.\"");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Enraged, he pulls out a blaster and shoots you several times.\n" +
+                    "You have died. You should have hit y.");
+                Environment.Exit(1);
+            }
+
+            Console.Clear();
+            Console.WriteLine($"You head back to your {heroShip.Name}, where a courier for your\n" +
+                $"new employer is sticking a package into the small cargo bay.\n\n" +
+                $"He nods and leaves, and you settle into your seat, and within a few minutes\n" +
+                $"you're shooting off into space...");
+            Console.ReadLine();
+            Console.Clear();
+
+            //Sector Charlie
+            Sector charlie = new Sector("Sector Charlie");
+            Console.WriteLine($"You begin your flight through {charlie.Name}.\n" +
+                $"All is initially peaceful, until a barrage of laser bolts cross your bow!");
+            synth.Speak("Stand and deliver, courier. Your money or your life!");
+
+            Ship ibis = new Ship
+            {
+                Name = "Ibis",
+                Hull = 2700,
+                Attack = 350,
+                Defense = 0,
+                Evasion = 0.003
+            };
+            NPC harold = new NPC
+            {
+                Name = "Harold",
+                IsAlive = true,
+                Level = 1,
+                Health = 1,
+                Marksmanship = 16,
+                Piloting = 16,
+                Luck = 10,
+                Defense = 0
+            };
+            Console.WriteLine($"A hostile {ibis.Name} appears!");
         }
     }
 }

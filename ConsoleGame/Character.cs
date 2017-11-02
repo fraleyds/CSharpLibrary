@@ -13,8 +13,8 @@ namespace ConsoleGame
         public bool IsAlive { get; set; }
         public int Level { get; set; }
         public int Health { get; set; }
-        public int Marksmanship { get; set; }
-        public int Piloting { get; set; }
+        public double Marksmanship { get; set; }
+        public double Piloting { get; set; }
         public double Luck { get; set; }
         public double Defense { get; set; }
     }

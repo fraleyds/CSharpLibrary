@@ -37,12 +37,12 @@ namespace _0._16_QuizOne
 
             IEnumerable<Triangle> query = from t in triangles
                                           where t.Area() > 10
-                                          orderby t.TArea
+                                          orderby t.TArea ascending
                                           select t;
 
             foreach (Triangle triangle in query)
             {
-                Console.WriteLine(triangle.TName);
+                Console.WriteLine(triangle.TName + " " + triangle.TArea);
             }
         }
     }

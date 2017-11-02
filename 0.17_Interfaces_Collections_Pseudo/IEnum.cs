@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleGame
+namespace _0._17_Interfaces_Collections_Pseudo
 {
-    public class NPC : Character
+    interface IEnum
     {
+        void IterateOverCollection();
     }
 }

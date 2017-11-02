@@ -8,5 +8,9 @@ namespace ConsoleGame
 {
     class Ship : Item
     {
+        //Properties
+        public double Hull { get; set; }
+        public double Defense { get; set; }
+        public double Evasion { get; set; }
     }
 }

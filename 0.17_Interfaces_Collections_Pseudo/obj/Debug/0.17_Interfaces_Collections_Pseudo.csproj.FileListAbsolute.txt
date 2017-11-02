@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\bin\Debug\0.17_Interfaces_Collections_Pseudo.exe.config
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\bin\Debug\0.17_Interfaces_Collections_Pseudo.exe
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\bin\Debug\0.17_Interfaces_Collections_Pseudo.pdb
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\obj\Debug\0.17_Interfaces_Collections_Pseudo.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\obj\Debug\0.17_Interfaces_Collections_Pseudo.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\obj\Debug\0.17_Interfaces_Collections_Pseudo.exe
+C:\DotNetProjects\CSharpLibrary\0.17_Interfaces_Collections_Pseudo\obj\Debug\0.17_Interfaces_Collections_Pseudo.pdb
