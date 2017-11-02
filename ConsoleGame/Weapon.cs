@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    public abstract class Location
+    class Weapon : Item
     {
-        //Properties
-        public string Name { get; set; }
-        
+
     }
 }

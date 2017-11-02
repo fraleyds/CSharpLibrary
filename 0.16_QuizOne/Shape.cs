@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleGame
+namespace _0._16_QuizOne
 {
-    public abstract class Location
+    abstract class Shape
     {
-        //Properties
-        public string Name { get; set; }
-        
+        public abstract double Area();
     }
 }

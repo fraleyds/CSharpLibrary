@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    public abstract class Location
+    abstract class Item
     {
         //Properties
         public string Name { get; set; }
-        
+        public double Value { get; set; }
+        public double Attack { get; set; }
+        public double Charge { get; set; }
     }
 }

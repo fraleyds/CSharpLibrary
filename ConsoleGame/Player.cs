@@ -18,6 +18,11 @@ namespace ConsoleGame
             this.Marksmanship = 0;
             this.Piloting = 0;
             this.Luck = 10;
+            this.Wealth = 5000;
+            this.Defense = 5;
         }
+
+        //Properties
+        public double Wealth { get; set; }
     }
 }

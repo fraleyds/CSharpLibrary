@@ -19,6 +19,8 @@ namespace ConsoleGame
             Console.WriteLine("Space Trip: The Gates of the Spacy Abyss");
             synth.Speak("Space Trip!");
             Console.WriteLine("Press RETURN to continue...");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.ReadLine();
             Console.Clear();
 
@@ -29,7 +31,7 @@ namespace ConsoleGame
 
             Player hero = new Player(Console.ReadLine());
             Console.Clear();
-            Console.WriteLine($"Just a few questions for you, {hero.Name}.\n" +
+            Console.WriteLine($"Thank you, {hero.Name}. Just one more question.\n" +
                 $"Press RETURN to continue...");
             Console.ReadLine();
             Console.Clear();
@@ -69,6 +71,15 @@ namespace ConsoleGame
             Thread.Sleep(500);
             Console.WriteLine("Thanks for your responses! Carry on.\n" +
                 "Press RETURN to exit the survey...");
+            Console.ResetColor();
+            Console.ReadLine();
+            Console.Clear();
+
+            //Shepard Station
+            Station shepard = new Station("Shepard Station", false, 5);
+            Console.WriteLine($"You look up from the public console and take in the sight of the sprawling station terminal around you.\n" +
+                $"{shepard.Name} is a bustling hive of activity, and you");
+
         }
     }
 }

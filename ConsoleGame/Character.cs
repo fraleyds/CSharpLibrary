@@ -8,13 +8,14 @@ namespace ConsoleGame
 {
     public abstract class Character
     {
+        //Properties
         public string Name { get; set; }
         public bool IsAlive { get; set; }
         public int Level { get; set; }
         public int Health { get; set; }
         public int Marksmanship { get; set; }
         public int Piloting { get; set; }
-        public int Energy { get; set; }
         public double Luck { get; set; }
+        public double Defense { get; set; }
     }
 }

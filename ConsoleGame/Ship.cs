@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleGame
 {
-    class Ship
+    class Ship : Item
     {
     }
 }

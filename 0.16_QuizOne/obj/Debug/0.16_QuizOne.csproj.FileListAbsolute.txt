@@ -1,0 +1,7 @@
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\bin\Debug\0.16_QuizOne.exe.config
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\bin\Debug\0.16_QuizOne.exe
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\bin\Debug\0.16_QuizOne.pdb
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\obj\Debug\0.16_QuizOne.csprojResolveAssemblyReference.cache
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\obj\Debug\0.16_QuizOne.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\obj\Debug\0.16_QuizOne.exe
+C:\DotNetProjects\CSharpLibrary\0.16_QuizOne\obj\Debug\0.16_QuizOne.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLibrary", "CSharpLibrary\CSharpLibrary.csproj", "{2D2EB36E-E4F9-4059-A0E7-F2D31D5D6264}"
 EndProject
@@ -54,6 +54,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.14_Override", "0.14_Override\0.14_Override.csproj", "{02734EEF-8830-4FD4-BAA1-A0B7C876FC19}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_LINQ", "0.15_LINQ\0.15_LINQ.csproj", "{4F503F06-054A-4BEE-9DC1-743A82D0BA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.16_QuizOne", "0.16_QuizOne\0.16_QuizOne.csproj", "{A5A0D7E2-5BF1-49B3-89BA-289E25C0E652}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F503F06-054A-4BEE-9DC1-743A82D0BA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A0D7E2-5BF1-49B3-89BA-289E25C0E652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A0D7E2-5BF1-49B3-89BA-289E25C0E652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A0D7E2-5BF1-49B3-89BA-289E25C0E652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A0D7E2-5BF1-49B3-89BA-289E25C0E652}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
