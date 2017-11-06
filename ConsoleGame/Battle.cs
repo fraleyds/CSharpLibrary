@@ -26,7 +26,8 @@ namespace ConsoleGame
         //Methods
         public void Combat(Player hero, Ship heroShip, NPC enemy, Ship enemyShip)
         {
-
+            Console.WriteLine($"A hostile {enemyShip.Name} appears!");
+            Console.WriteLine($"\"Have at you, nerd! I am {enemy.Name} {enemy.Nickname}!");
         }
     }
 }

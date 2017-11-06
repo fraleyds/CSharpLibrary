@@ -179,8 +179,10 @@ namespace ConsoleGame
                 Defense = 0,
                 Evasion = 0.003
             };
-            NPC harold = new NPC("Harold", 1, 1, 16, 16, 10, 0);
-            Console.WriteLine($"A hostile {ibis.Name} appears!");
+            NPC harold = new NPC("Harold", "the Butcher", 1, 1, 16, 16, 10, 0);
+
+            Battle firstFight = new Battle();
+            firstFight.Combat(hero, heroShip, harold, ibis);
         }
     }
 }

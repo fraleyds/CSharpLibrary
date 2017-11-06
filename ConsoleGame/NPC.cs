@@ -9,9 +9,10 @@ namespace ConsoleGame
     public class NPC : Character
     {
         //Constructor
-        public NPC(string name, int level, int health, double marksmanship, double piloting, double luck, double defense)
+        public NPC(string name, string nickname, int level, int health, double marksmanship, double piloting, double luck, double defense)
         {
             this.Name = name;
+            this.Nickname = nickname;
             this.IsAlive = true;
             this.Level = level;
             this.Health = health;
@@ -20,5 +21,8 @@ namespace ConsoleGame
             this.Luck = luck;
             this.Defense = defense;
         }
+
+        //Properties
+        public string Nickname { get; set; }
     }
 }
