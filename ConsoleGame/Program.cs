@@ -171,7 +171,7 @@ namespace ConsoleGame
                 $"All is initially peaceful, until a barrage of laser bolts cross your bow!");
             synth.Speak("Stand and deliver, courier. Your money or your life!");
 
-            Ship ibis = new Ship
+            Ship ibis = new Ship()
             {
                 Name = "Ibis",
                 Hull = 2700,
@@ -179,17 +179,7 @@ namespace ConsoleGame
                 Defense = 0,
                 Evasion = 0.003
             };
-            NPC harold = new NPC
-            {
-                Name = "Harold",
-                IsAlive = true,
-                Level = 1,
-                Health = 1,
-                Marksmanship = 16,
-                Piloting = 16,
-                Luck = 10,
-                Defense = 0
-            };
+            NPC harold = new NPC("Harold", 1, 1, 16, 16, 10, 0);
             Console.WriteLine($"A hostile {ibis.Name} appears!");
         }
     }
