@@ -11,7 +11,7 @@ namespace ConsoleGame
         //Properties
         public string Name { get; set; }
         public double Value { get; set; }
-        public double Attack { get; set; }
+        public double Damage { get; set; }
         public double Charge { get; set; }
     }
 }

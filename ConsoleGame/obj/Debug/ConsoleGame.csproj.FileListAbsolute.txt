@@ -5,3 +5,7 @@ C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csprojResolveA
 C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.csproj.CoreCompileInputs.cache
 C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.exe
 C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.pdb
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\bin\Debug\ConsoleGame.exe.manifest
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\bin\Debug\ConsoleGame.application
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.exe.manifest
+C:\DotNetProjects\CSharpLibrary\ConsoleGame\obj\Debug\ConsoleGame.application

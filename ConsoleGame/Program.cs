@@ -39,7 +39,7 @@ namespace ConsoleGame
             Console.WriteLine("Now to talk about your training.\n" +
                 "Did you feel more proficient as a pilot or at personal combat?\n" +
                 $"1. Piloting\n" +
-                $"2. Boots-on-the-ground Combat");
+                $"2. Marksmanship");
             while (hero.Piloting == 0)
             {
                 int statReply = Convert.ToInt32(Console.ReadLine());
@@ -83,7 +83,8 @@ namespace ConsoleGame
                 {
                     heroShip.Name = "Jackal";
                     heroShip.Hull = 2000;
-                    heroShip.Attack = 300;
+                    heroShip.MaxHull = 2000;
+                    heroShip.Damage = 300;
                     heroShip.Defense = 100;
                     heroShip.Evasion = 0.007;
                     heroShip.Charge = 250;
@@ -94,7 +95,8 @@ namespace ConsoleGame
                 {
                     heroShip.Name = "Armadillo";
                     heroShip.Hull = 2400;
-                    heroShip.Attack = 200;
+                    heroShip.MaxHull = 2400;
+                    heroShip.Damage = 200;
                     heroShip.Defense = 150;
                     heroShip.Evasion = 0.005;
                     heroShip.Charge = 250;
@@ -105,7 +107,8 @@ namespace ConsoleGame
                 {
                     heroShip.Name = "Echo";
                     heroShip.Hull = 1900;
-                    heroShip.Attack = 200;
+                    heroShip.MaxHull = 1900;
+                    heroShip.Damage = 200;
                     heroShip.Defense = 120;
                     heroShip.Evasion = 0.01;
                     heroShip.Charge = 1000 / 3;
@@ -175,14 +178,28 @@ namespace ConsoleGame
             {
                 Name = "Ibis",
                 Hull = 2700,
-                Attack = 350,
-                Defense = 0,
+                Damage = 280,
+                Defense = 75,
                 Evasion = 0.003
             };
             NPC harold = new NPC("Harold", "the Butcher", 1, 1, 16, 16, 10, 0);
 
             Battle firstFight = new Battle();
             firstFight.Combat(hero, heroShip, harold, ibis);
+            if (hero.IsAlive == false)
+            {
+                Environment.Exit(1);
+            }
+            Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("The rest of your journey is uneventful. You arrive at your destination.\n");
+            Console.ReadLine();
+            Console.WriteLine("A wiry dude with a goatee takes your offered parcel and nods.\n" +
+                $"\"Thank you, {hero.Name}. I'm sure it was a harrowing journey.\"");
+            Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine("You're paid a million bucks and win the game in its current state. Congrats.");
         }
     }
 }

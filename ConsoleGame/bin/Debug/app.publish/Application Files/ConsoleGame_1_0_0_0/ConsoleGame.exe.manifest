@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConsoleGame.exe" version="1.0.0.0" publicKeyToken="9eafcae72b22882e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConsoleGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConsoleGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleGame.exe" size="19904">
+      <assemblyIdentity name="ConsoleGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kkgOo73pMJEzAnVUmBLwbYTCbEz3OVCrm86KGa5haPQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConsoleGame.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DAVESLAPPY\David" issuerKeyHash="2801b048baea68f80fa6471868789ab84cc34f34" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tq+JfFFBMSakAO+a//2ufLnHfs9BQhgs1BXIGiI/7g4=</DigestValue></Reference></SignedInfo><SignatureValue>qDoALQq69D8EnnMi1YhVPxANS0ac5AcpHB4oXp6NlKYu0cibDknQs+WAURcO8EhUdXX+0uAdou+Qen6gACiEXwuhtFpo7rtAnhftvYzcjSMKY/Wee6AsV84eYaIHL5v1844ALXWX+e2VKTNKeluZhon+zd7KCSHcTe6exgzgZWI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5/KtsbQMMvq2AcMTcUrRV0STlm1IID5J7Tw7GR5u57073NLcA3uOU7wDzaNfZfXKAbC78r12OCMGX4TgulPF594aeSQ7AVXRz1pu5uErvrhoc5LRqzIHL/aq7puTWRRbjiju879xb1D9vlCofgaMf/Va/MyE039klMesdSRHII0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0eee3f221ac815d42c184241cf7ec7b97caefdff9aef00a4263141517c89afb6" Description="" Url=""><as:assemblyIdentity name="ConsoleGame.exe" version="1.0.0.0" publicKeyToken="9eafcae72b22882e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DAVESLAPPY\David</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k9X7EVevxWQqpVpS38hrZHX60BTXx/Qi8Csf+wYGRqs=</DigestValue></Reference></SignedInfo><SignatureValue>EqhVIAZErRz1WNkUsUJW/UgiD0WWRpxGFVYdr4fCgJfQAJJ2eLdOXHhfL3xyz2VNZZkW0H035vA+xm2d0Wk01jUPmsEx+JCyrLlIfjFqz8wl83iMVO3WqCDTs5vq6mNjgKlExr7kDDRGmTLbdku3KGztrC+We69YT4yWU4+0xek=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5/KtsbQMMvq2AcMTcUrRV0STlm1IID5J7Tw7GR5u57073NLcA3uOU7wDzaNfZfXKAbC78r12OCMGX4TgulPF594aeSQ7AVXRz1pu5uErvrhoc5LRqzIHL/aq7puTWRRbjiju879xb1D9vlCofgaMf/Va/MyE039klMesdSRHII0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQdYW1iHD+bpRAZF6IiKnC+TANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARABBAFYARQBTAEwAQQBQAFAAWQBcAEQAYQB2AGkAZDAeFw0xNzExMDcxOTUxNDJaFw0xODExMDgwMTUxNDJaMCsxKTAnBgNVBAMeIABEAEEAVgBFAFMATABBAFAAUABZAFwARABhAHYAaQBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDn8q2xtAwy+rYBwxNxStFXRJOWbUggPkntPDsZHm7nvTvc0twDe45TvAPNo19l9coBsLvyvXY4IwZfhOC6U8Xn3hp5JDsBVdHPWm7m4Su+uGhzktGrMgcv9qrum5NZFFuOKO7zv3FvUP2+UKh+Box/9Vr8zITTf2SUx6x1JEcgjQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKC2b21V1cil+fGKWXvDfCiM+Ykj2qf1gq2AIETZcwrwACjzYfrxCyDq9ZRhEBJEu11f8/zP/x8wENS9ITi/iguhMMKl0d28b9u+9MNMPaXqM0K4L9m4vfrIjoLaFiKNqSB6lU1Rl2ACuS88LkvBGiUsBWQDDHx8CweYllUinPg1</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
